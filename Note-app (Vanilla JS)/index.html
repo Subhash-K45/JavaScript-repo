@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .material-symbols-outlined {
+          font-variation-settings:
+          'FILL' 0,
+          'wght' 400,
+          'GRAD' 0,
+          'opsz' 1
+          
+        }
+        </style>
+</head>
+<body>
+    <div class="nav">
+        <div>
+            <img src="https://cdn0.iconfinder.com/data/icons/document-file-types/512/doc-512.png" alt="" />
+            <h1 class="nav-title">NoteIt</h1>
+        </div>
+            <ul>
+            <li>Home</li>
+            <li>Archive</li>
+            </ul>
+    </div>
+    <div class="main">
+        <input type="text" placeholder="Title" class="note-title"/>
+        <input type="text" placeholder="Make a note" class="input-note"/>
+        <button id="btn"><span class="material-symbols-outlined">add</span></button>
+    </div>
+    <div class="Notes">
+        <div>
+            <h3 class="pin d-none">Pinned</h3>
+            <div class="pinned-notes"></div>
+        </div>
+        <div>
+            <h3 class="other d-none">Others</h3>
+            <div class="other-notes"></div>
+        </div>
+    </div>
+    <script src="main.js" type="module"></script>
+</body>
+</html>

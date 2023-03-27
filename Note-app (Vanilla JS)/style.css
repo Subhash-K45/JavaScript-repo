@@ -1,0 +1,71 @@
+.nav{
+    position: absolute;
+    top:0;
+    left:0;
+    height: 50px;
+    display:flex;
+    justify-content: space-between;
+    padding:20px 0px;
+    background-color: blue;
+    color:whitesmoke;
+    width:100vw;
+}
+.nav img{
+    width:50px;
+    height:40px;
+}
+.nav div{
+    display:flex;
+    justify-content: baseline;
+}
+.nav ul{
+    display:flex;
+    list-style-type: none;
+    gap:10px;
+}
+.main{
+    position :absolute;
+    top:100px;
+    left:30%;
+    display: flex;
+    flex-direction: column;
+    width:400px;
+    height: 150px;
+    padding:10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    gap:30px;
+}
+.main input{
+    height:30px;
+}
+.main button{
+    position:relative;
+    width:30px;
+    height:50px;
+    color:aliceblue;
+    background-color: blue;
+    border:none;
+    height: 30px;
+    margin-top:8px;
+    right: -370px;
+    border-radius: 50%;
+}
+.material-symbols-outlined{
+     padding:0;
+     margin-left:0px;
+     margin-top:3px;
+     font-size:20px;
+}
+.Notes{
+    position: relative;
+    top:400px;
+}
+.d-none{
+    display:none;
+}
+.pinned-notes{
+    padding:10px;
+}
+.other-notes{
+    padding:10px;
+}
