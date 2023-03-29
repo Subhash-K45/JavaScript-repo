@@ -1,0 +1,4 @@
+-> Created a weight and length coventor using HTML,CSS and JavaScript
+-> Converts KG to Pounds and Pounds to KG, meters to inches and inches to meters 
+-> When the two input are given from the user side the leftmost will be solved and rightmost is ignored
+-> to avoid such case I made the another input box (not focused) as null, so that we can have clear understand of what we converting
