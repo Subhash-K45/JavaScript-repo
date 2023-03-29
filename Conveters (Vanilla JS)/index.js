@@ -6,16 +6,16 @@ const weight_button=document.getElementById('weight');
 const length_button=document.getElementById('length');
 const invalid_weight=document.querySelector('.weight_invalid');
 const invalid_length=document.querySelector('.length_invalid');
-kilogram.addEventListener('click',function(){
+kilogram.addEventListener('keydown',function(){
     pound.value="";
 })
-pound.addEventListener('click',function(){
+pound.addEventListener('keydown',function(){
     kilogram.value="";
 })
-meter.addEventListener('click',function(){
+meter.addEventListener('keydown',function(){
     inches.value="";
 })
-inches.addEventListener('click',function(){
+inches.addEventListener('keydown',function(){
     meter.value="";
 })
 weight_button.addEventListener('click',()=>{
