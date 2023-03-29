@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Convetors</title>
+    <link rel="stylesheet" href="style.css">
+   </head>
+<body>
+    <div class="container">
+        <div class="weight_converter">
+            <h3>Weight-convertor</h3>
+                <div class="innerdiv">
+                    <div>
+                        <h4>kilograms</h4>
+                        <input type="text" placeholder="Weight in kilograms" id="kilogram" onchange="change()"/>
+                    </div>
+                    <div>
+                        <h4>Pounds</h4>
+                        <input type="text" placeholder="Weight in pounds" id="pound"/>
+                    </div>
+                </div>
+            <button id="weight">convert</button>
+           
+        </div>
+        <div class="length_convertor">
+            <h3>Length-convertor</h3>
+            <div class="innerdiv">
+                <div>
+                    <h4>Meter</h4>
+                    <input type="text" placeholder="Length in meter" id="meter"/>
+                </div>
+                <div>
+                    <h4>Inches</h4>
+                    <input type="text" placeholder="Length in inches" id="inches"/>
+                </div>
+            </div>
+            <button id="length">convert</button>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
