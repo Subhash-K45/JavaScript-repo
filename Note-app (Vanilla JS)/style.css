@@ -83,9 +83,13 @@ body{
 }
 .pinned-notes{
     padding:10px;
+    display: flex;
+    gap:30px;
 }
 .other-notes{
     padding:10px;
+    display: flex;
+    gap:30px;
 }
 a{
     text-decoration: none;
