@@ -1,1 +1,4 @@
-
+-> Generating a random quote among 100 quote
+-> All the Quote are taken as Object and wrapping those in the DOM element
+-> Repeating the same quote may occur ,because the code depend on Math.random
+-> Neon colors are used for styling
