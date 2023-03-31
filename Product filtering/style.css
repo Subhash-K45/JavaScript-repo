@@ -1,42 +1,54 @@
-body{
-    width:100vw;
-    height: 100vh;
-    display:grid;
-    place-items:center;
-    background-color: black;
-}
+
 .container{
-    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-    padding: 10px;
-    background-color: rgb(41, 37, 37);
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(150px,1fr));
+    gap:60px;
+    margin-top:80px;
+}
+.product-container{
+    padding:10px;
+    width:max-content;
+}
+.product-container img{
+    width:200px;
+    height: 200px;
+}
+.product-container:hover{
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.input-box{
+    position: absolute;
+    top:20px;
+    left:30%;
     display: flex;
-    flex-direction: column;
-    color:#11FFEE;
-    border-radius: 10px;
 }
-.div{
-    display: flex;
+.input-box input{
+    width:250px;
+    height: 30px;
+    text-indent: 5px;
+    border-radius: 5px;
+    font-size:16px;
+    border:2px solid orange;
 }
-#Author{
-    align-self: flex-end;
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: orange;
+  }
+  ::placeholder{
+    color:rgb(232, 179, 82);
+  }
+.hide{
+    display: none;
 }
-button{
-    border:none;
-    background-color:#11FFEE;
-    color:rgb(8, 8, 8);
-    width:160px;
-    font-size: medium;
-    padding:5px 0;
-    letter-spacing: 0.5px;
-    border-radius: 6px;
-    cursor: pointer;
-}
-h4{
-    color:#11FFEE;
-}
-h3{
-    font-weight: 600;
-}
-span{
-    color:#11FFEE;
+input[type=text]:focus {
+    outline-color: orange;
+  }
+
+.input-box >button{
+      color: white;
+      background-color: orange;
+      border: 1px solid orange;
+      border-radius: 5px;
+      height: 35px;
+      position: relative;
+      left:-56px
 }
