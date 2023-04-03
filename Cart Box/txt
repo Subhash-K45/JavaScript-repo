@@ -1,1 +1,3 @@
-
+Day 1 -> Creating the add to cart button
+Day 2 -> add features to like count button in the cart and function of remove button is done there
+-> all the elements are wrapped inside the funcion wrap,when there is a need  we can call upon the function.
