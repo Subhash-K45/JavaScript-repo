@@ -76,7 +76,9 @@
     width:26vw;
     max-width: 300px; 
     margin-right:2vw;
-   transition: all 0.2s linear 0.2s;
+    transition: all 0.5s linear;
+    transform:scaleY(1);
+    
 }
 .cart-container img{
     width:70%;
@@ -124,8 +126,6 @@ nav{
     height: 50px;
     color:rgb(135, 98, 98);
     letter-spacing: 0.8px;
-    width:100vw;
-    min-width: 400px;
 }
 nav>h3{
     padding-top: 10px;
@@ -156,11 +156,11 @@ nav>h3{
     outline: none;
     cursor: pointer;
 }
-
 .active{
     rotate: 180deg;
 }
 .display{
-    width:0;
-    transition: all 0.2s linear 0.2s; 
+    transition: all 0.5s linear;
+    transform:scaleY(0);
+    background-color: white;
 }
