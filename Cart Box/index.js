@@ -1,33 +1,36 @@
 import {products} from './data.js'
 const container=document.querySelector('.container')
+
 for(let i in products){
         container.innerHTML=products.map(item=>{
         return(
             `<div class="product">
                 <img src="${item.image}" alt="${item.productName}"/>
                 <h3 class="product-name">${item.productName}</h3>
-                <p>price : ${item.price}</p>
+                <p>price : ₹${item.price}</p>
                 <button class="button" id="${item.id}" data-key="${item.id}">Add to Cart</button>
              </div>`
         )
     }).join(' ')
 }
 function wrap(item,countArr){
+    
     return (
         `<div class="cart-product">
-            <div>
+            <div class="cart-product-elements">
                 <img src="${products[item].image}" alt="${products[item].productName}"/>
                 <h3 class="product-name">${products[item].productName}</h3>
-                <p>price : ${products[item].price}</p>
+                <p>price : ₹${products[item].price}</p>
                 <button class="btn" id="${products[item].id}" data-set="${products[item].id}">Remove</button>
             </div>
             <div class="counter">
                 <span class="material-symbols-outlined" data-increment="${countArr[item]}" data-id="${products[item].id}">expand_less</span>
-                <span>${countArr[item]}</span>
+                <span class="counter-elements">${countArr[item]}</span>
                 <span class="material-symbols-outlined" data-decrement="${countArr[item]}" data-id="${products[item].id}">expand_more</span>
             </div>
         </div>`
         )
+        
 }
 let arr=[]
 let cartArr=[]
