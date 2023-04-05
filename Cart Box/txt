@@ -1,3 +1,6 @@
 Day 1 -> Creating the add to cart button
 Day 2 -> add features to like count button in the cart and function of remove button is done there
 -> all the elements are wrapped inside the funcion wrap,when there is a need  we can call upon the function.
+Day 3->Styling to it and make it more respnsive 
+Image may take a time to fecth , hence there is a problem when adding to cart ,  problem is here this can be handled in the using react to load image faster
+and async function can be used until the the image is fetched.
