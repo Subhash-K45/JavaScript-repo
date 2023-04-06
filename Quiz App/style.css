@@ -1,3 +1,59 @@
+
+body{
+    display:grid;
+    place-items: center;
+    background-color: black;
+}
+.root {
+    width: 500px;
+    height: 450px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    place-items: center;
+    gap: initial;
+    grid-template-columns: repeat(1,1fr);
+    box-shadow: #E1306C 0px 3px 8px;
+    flex-wrap: nowrap;
+    margin-top: 50px;
+    background-color: #302e31;
+    color:#B026FF;
+    border-radius:5%;
+    
+}
+.container{
+    padding:0;
+} 
+.container h3{
+    font-weight: 100;
+    letter-spacing: 0.8px;
+}
+input[type="radio"]{
+    margin-left: 20px;
+}
+input[type='radio'] {
+    accent-color: rgb(232, 232, 93);
+}
+#btn{
+    margin-top: 20px;
+    border-radius: 20px;
+    width:80px;
+    border:none;
+    outline:none;
+    color:whitesmoke;
+    background-color: #E1306C;
+    cursor: pointer;
+    letter-spacing: 0.5px;
+}
 .remove{
-    display:none
+    display:none;
+}
+#Score{
+    text-align: center;
+    color: azure;
+    font-size: x-large;
+    top:50px;
+}
+.name{
+    color:white
 }
