@@ -1,0 +1,63 @@
+.main{
+    display:flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    margin-top: 200px;
+    margin-left: 200px;
+    padding:30px;
+    font-family: 'Source Sans Pro', sans-serif;
+    max-width:1140px;
+    /* justify-content: space-between; */
+    gap:30px;
+    border-radius: 10px;
+}
+.Read,.Learn,.Practice{
+   max-width:  400px;
+    padding:20px;
+    border-radius: 10px;
+    transition: all 0.3s linear;
+}
+.Read:hover,.Learn:hover,.Practice:hover{
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.content{
+    width: 250px;
+    display: flex;
+    flex-wrap: wrap;
+}
+img{
+    width:300px;
+}
+p{
+    text-align:justify;
+    margin-top:-10px;
+}
+a{
+    text-decoration: none;
+    color:black;
+}
+.btn{
+    position: absolute;
+    right:3%;
+    top:30px;
+}
+.active{
+    background-color: rgb(42, 38, 38);
+    color:white;
+}
+.active .Read:hover, .active .Learn:hover,.active .Practice:hover{
+    box-shadow: rgb(185, 179, 179) 0px 7px 29px 0px;
+}
+.active body{
+
+}
+.active p,.active h2{
+    color:white
+}
+button {
+    border:none;
+    outline: none;
+    background-color: rgb(156, 84, 218);
+    color:white;
+    border-radius:15%;
+}
