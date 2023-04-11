@@ -1,1 +1,3 @@
-
+In this project I setup a button which toogle between dark and light mode int he browsers
+Background color is changing from white to black and vice versa 
+Transition property in css is used for smoothing the hover effect
