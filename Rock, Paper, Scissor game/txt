@@ -1,1 +1,4 @@
-
+-> Rock Paper Scissor game using vanilla javascript
+-> The Computer choice is displayed in the textarea
+->Out of 5 games will be the limit of this game
+-> When the game over it alert that You or Computer Wins
