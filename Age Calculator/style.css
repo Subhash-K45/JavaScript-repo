@@ -1,6 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+body{
+    display: grid;
+    place-items: center;
+    height:100vh;
+    font-family: 'Poppins', sans-serif;
+}
 .red,.error{
     color:red;
 }
 .none{
     display: none;
+}
+.outer-div{
+    width:50%;
+    height:400px;
+    display: flex;
+    flex-direction: column;
+}
+.container{
+    display: flex;
+    gap:20px;
+}
+.inner-div{
+    display:flex;
+    flex-direction: column;
+    gap:10px;
+}
+.inner-div label{
+    font-size: 0.8rem;
+    font-weight: 500;
+}
+input[type="text"]{
+    width:6rem;
+    height:3rem;
+    border-radius: 10%;
+    text-indent: 10px;
+    font-size: 1.5rem;
+}
+.result{
+    
 }

@@ -26,38 +26,46 @@
     </style>
   </head>
   <body>
-    <div class="container">
-        <div class="day-class">
-          <label for="day">DAY</label>
-          <input type="text" placeholder="DD" id="day"/>
-          <div class="error">
-            Invalid date
+    <div class="outer-div">
+      <div class="container">
+          <div class="day-class">
+            <div class="inner-div">
+              <label for="day">DAY</label>
+              <input type="text" placeholder="DD" id="day"/>
+            </div>
+            <div class="error">
+              Invalid date
+            </div>
+          </div>
+          <div class="month-class">
+            <div class="inner-div">
+              <label for="month">MONTH</label>
+              <input type="text" placeholder="MM" id="month"/>
+            </div>
+            <div class="error">
+              Invalid month
+            </div>
+          </div>
+          <div class="year-class">
+            <div class="inner-div">
+              <label for="year">YEAR</label>
+              <input type="text" placeholder="YYYY" id="year"/>
+            </div>
+            <div class="error">
+                Invalid Year
+            </div>
           </div>
         </div>
-        <div class="month-class">
-          <label for="month">MONTH</label>
-          <input type="text" placeholder="MM" id="month"/>
-          <div class="error">
-            Invalid month
-          </div>
+        <hr>
+        <div class="button">
+          <button id="btn">click</button>
         </div>
-        <div class="year-class">
-          <label for="year">year</label>
-          <input type="text" placeholder="YYYY" id="year"/>
-          <div class="error">
-              Invalid Year
-          </div>
+        <div class="result">
+          <span><span class="result-years">--</span> years</span>
+          <span><span class="result-months">--</span> months</span>
+          <span><span class="result-days">--</span>days</span>
         </div>
     </div>
-      <hr>
-      <div class="button">
-        <button id="btn">click</button>
-      </div>
-      <div>
-        <span>--years</span>
-        <span>--months</span>
-        <span>--days</span>
-      </div>
     <div class="attribution">
       
       Challenge by
