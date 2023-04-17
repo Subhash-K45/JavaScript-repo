@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="title">
+        <h4>Password Generator</h4>
+      </div>
+      <div class="password-display">
+        <textarea placeholder="eg. P4$SW$rd" readonly></textarea
+        ><span class="copy material-symbols-outlined"> file_copy </span>
+      </div>
+      <div class="input">
+        <div class="range">
+          <div class="character-length">
+            Character Length
+            <input
+              type="range"
+              placeholder="range"
+              min="4"
+              max="16"
+              value="0"
+              class="input-range"
+            />
+          </div>
+          <div class="length">0</div>
+        </div>
+        <div class="checkboxes">
+          <div>
+            <input type="checkbox" placeholder="checkbox" class="checkbox" />
+            <span>Include Uppercase Letters</span>
+          </div>
+          <div>
+            <input type="checkbox" placeholder="checkbox" class="checkbox" />
+            <span>Include Lowercase Letters</span>
+          </div>
+          <div>
+            <input type="checkbox" placeholder="checkbox" class="checkbox" />
+            <span>Include Numbers</span>
+          </div>
+          <div>
+            <input type="checkbox" placeholder="checkbox" class="checkbox" />
+            <span>Include Symbols</span>
+          </div>
+        </div>
+        <div class="generate">
+          <textarea placeholder="STRENGTH" class="generate-strength"readonly></textarea>
+          <div class="span">
+            <div class="password-strength"></div>
+            <div class="password-strength"></div>
+            <div class="password-strength"></div>
+            <div class="password-strength"></div>
+          </div>
+
+          <button class="generate-button">Generate</button>
+        </div>
+      </div>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
