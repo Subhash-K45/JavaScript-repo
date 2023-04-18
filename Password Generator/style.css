@@ -69,6 +69,12 @@ textarea::placeholder{
     margin-top: 10px;
     gap:10px;
 }
+.password{
+    color:rgb(142, 134, 134);
+    padding-top:15px;
+    padding-left: 10px;
+    font-size: 14px;
+}
 input[type="checkbox"]{
     cursor: pointer;
 }
@@ -115,6 +121,9 @@ h4{
     width:5px;
     border-radius: 1px;
     outline: none;
+}
+.copy{
+    cursor: pointer;
 }
 button{
     background-color: #86d777;
